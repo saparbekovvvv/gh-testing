@@ -3,3 +3,28 @@
   padding: 0;
   margin: 0;
 }
+.container {
+  width: 100%;
+  max-width: 1240px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+body {
+  background: #f7f7f7;
+}
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 36px;
+}
+.block h1 {
+  color: darkgray;
+}
+.block li {
+  font-size: 16px;
+  color: rgb(99, 99, 99);
+}
+.block span {
+  color: rgb(0, 204, 255);
+}
